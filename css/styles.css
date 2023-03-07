@@ -1,0 +1,21 @@
+/*############################################ Import ############################################*/
+/* Fronts */
+@import url("fronts.css");
+
+:root{
+    --color--1-2: #282828;
+    
+    --font-family--Titulo: 'PetronaBold'; /*-----> Titulo */
+    --font-family--SubTitulo: 'PetronaBoldItalic'; /*-----> Sub titulo */
+
+    --font-family--Texto:'PetronaLight'; /*-----> Texto */
+    --font-family--TextoClave:'PetronaLightItalic'; /*-----> Texto Indicador */
+
+    --font-family--Footer:'PetronaThin'; /*-----> Texto Footer */
+    --font-family--FooterClave:'PetronaThinItalic'; /*-----> Texto Indicador Footer */
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
