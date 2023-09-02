@@ -11,7 +11,7 @@
 	const DB_L_USER = "root";
 	const DB_L_PASSWORD = "";
 	const DB_CHARSET = "UTF8";
-	const BASE_URL = "http://localhost/Proyecto_GattiDev/";
+	const BASE_URL = "http://localhost/GattiDev_HTML_Structure/";
 
 	//--> GATTI DEV 
 	const GD_URL = BASE_URL . "dev/";
