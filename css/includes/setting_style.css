@@ -1,6 +1,6 @@
 /*############################################ Import ############################################*/
-@import url('../../../css/includes/fronts.css');
-
+@import url('fronts.css');
+ 
 :root{
     --color--00: #7db4ec96;
     --color--01: #5B94CF;
@@ -17,13 +17,17 @@
     --color--12: #868e96;
     --color--13: rgba(134,142,150,.5);
     --color--14: #6c757d;
-       
+    
+    --dt-status-sold-color: greenyellow;
+	--dt-status-ask-color: red;
+	--dt-status-offline-color: lightgray;
+
     --dt-padding:  12px;
 	--dt-padding-s:  6px;
 	--dt-padding-xs: 2px;
 
 	--dt-border-radius:  3px;
-
+ 
     --font-family--Titulo-GD: 'MerriweatherRegular'; 
     --font-family--SubTitulo-GD: 'MontserratRegular';
 

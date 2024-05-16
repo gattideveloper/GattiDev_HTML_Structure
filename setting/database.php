@@ -1,5 +1,5 @@
 <?php
-    require_once "url.php";
+    require_once "main_url.php";
     class Conexion{
         public static function conect(){
             //--> SERVIDOR

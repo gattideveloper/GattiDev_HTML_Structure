@@ -4,7 +4,7 @@
 @import url("dev_md.css");
 @import url("dev_tb.css");
 
-#main_content h2 {
+#main_container h2 {
     display: block;
     width: auto;
     width: 55%;

@@ -8,23 +8,19 @@ if(isset($_POST)){
 
     if($destino != 0){
      
-        if($destino == 1){ //---> Accesorios
+        if($destino == 1){ //---> Banner
             $id_destiny = $destino;
         }
 
-        if($destino == 2){ //---> Banner
+        if($destino == 2){ //---> Icono
             $id_destiny = $destino;
         }
 
-        if($destino == 3){ //---> Icono
+        if($destino == 3){ //---> Imagenes
             $id_destiny = $destino;
         }
 
         if($destino == 4){ //---> Logo
-            $id_destiny = $destino;
-        }
-
-        if($destino == 5){ //---> Otras
             $id_destiny = $destino;
         }
     }

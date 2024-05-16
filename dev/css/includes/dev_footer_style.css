@@ -1,11 +1,11 @@
-#footer_content h6{
+#footer_container h6{
     float: left;
     padding-top: 10px;
     padding-left: 18px;
     padding-bottom: 5px;
 }
 
-.copybox{
+.footer_copy{
     display: block;
     width: 550px;
     font-family: var(--font-family--Titulo-GD);
@@ -13,13 +13,13 @@
     letter-spacing: 2px;
 }
 
-#footer_content p{
+#footer_container p{
     float: right; 
     padding-top: 10px;
     padding-bottom: 5px; 
 }
 
-.devbox{
+.footer_dev{
     display: block;
     width: 410px;
     font-family: var(--font-family--Titulo-GD);
@@ -27,12 +27,12 @@
     letter-spacing: 2px;
 }
 
-.devbox a{
+.footer_dev a{
     text-decoration: none; 
     color: var(--color--04);
 }
 
-.devbox a:hover{
+.footer_dev a:hover{
     color: var(--color--01);
     transition: 1s;
 }

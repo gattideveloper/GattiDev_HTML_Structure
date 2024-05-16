@@ -9,6 +9,8 @@
     padding: 6px;
     margin-left: 6px;
     margin-right: 6px;
+    text-decoration: none;
+    color: var(--color--05);
 }
 
 .menu-btn{

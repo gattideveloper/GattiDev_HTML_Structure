@@ -1,31 +1,6 @@
 /*############################################ Import ############################################*/
-@import url('includes/main.css');
-/* Botínes */
-@import url("button.css");
+/* Responsive */
+@import url("responsive_style.css");
 
-#main_content h2 {
-    display: block;
-    width: auto;
-    width: 55%;
-    height: 40px;
-    line-height: 40px;
-    font-size: 35px;
-    letter-spacing: 2px;
-    font-family: var(--font-family--Title);
-    background-color: var(--color--03); 
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    color: var(--color--1-1);
-    text-shadow: 3px 0px 9px var(--color--04);
-    border-left: 4px solid var(--color--01);
-    border-bottom: 4px solid var(--color--01);
-    box-shadow: 0px 2px 0px var(--color--00), 0px 2px 0px var(--color--00) , 0px 1px 0px var(--color--00), 0px 3px 0px var(--color--00);
-    margin: 0px auto;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
 
-h2{
-    width: auto;
-    height: auto;
-}
+@media screen and (min-width: 800px){}

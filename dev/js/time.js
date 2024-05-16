@@ -55,7 +55,7 @@
 		pSegundos.textContent = segundos;*/
 
 		time.textContent = horas + ':' + minutos + ':' + segundos + ' ' + ampm;
-		date.textContent = dayWeek + '' + day + ' de ' + month + ' del ' + year;
+		date.textContent = dayWeek + ' ' + day + ' de ' + month + ' del ' + year;
 
 	};
 

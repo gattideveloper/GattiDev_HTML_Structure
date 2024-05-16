@@ -9,11 +9,10 @@
                 <label for="nombre">Destino</label>
                 <select id="idDestino" class= "selector" name="idDestino">
                     <option value="0">Seleccione:</option>
-                    <option value="1">Accesorios</option>
-                    <option value="2">Banner</option>
-                    <option value="3">Icono</option>
-                    <option value="4">Logo</option>
-                    <option value="5">Otras</option>   
+                    <option value="1">Banner</option>
+                    <option value="2">Icono</option>
+                    <option value="3">Imagenes</option>
+                    <option value="4">Logo</option>  
                 </select>
                    
                 <button type="button" id="boton_click" class="btn_subirImg boton_click">

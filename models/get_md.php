@@ -5,7 +5,7 @@
             $this->conexion = new Conexion();
             $this->conexion = $this->conexion->conect();
         }
-    
+        //==== F U N C T I O N  ====//
         public function Get_Administrator($data1){
             $consult = $this->conexion->query("CALL SP_Get_Administrator('$data1')");
             return $consult;

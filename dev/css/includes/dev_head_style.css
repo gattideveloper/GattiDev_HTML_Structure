@@ -1,17 +1,21 @@
-#head_content span{
+#head_container span{
     float: left;
-    width: 350px;
-    line-height: 18px;
+    width: 285px;
+    height: 120px;
+    margin: auto;
+    padding: 5px;
 }
 
 #logobox img{
+    display: block;
     height: 100%;
     width: 100%;
 }
 
-#head_content address{
+#head_container address{
     float: right;
-    line-height: 52px;
+    line-height: 40px;
+    margin-top: 25px;
     margin-right: 30px;
     color: var(--color--03);
 }

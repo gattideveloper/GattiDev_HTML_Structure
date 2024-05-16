@@ -39,11 +39,12 @@
 			
 	</head>
     <body>
-        <div id="content">
+        <div id="container">
 			
-			<!-- Head Content - Inicio -->
-			<header id="head_content">
+			<!-- H E A D E R -->
+			<header id="head_container">
                 <span id="logobox">
+					
 					<?php $dataBanner = $Image_Banner->Get_Image($Banner, $DestinyBanner);
 						while($getBanner = mysqli_fetch_assoc($dataBanner)){ 
 							//--> Construyo la imagen
@@ -64,10 +65,9 @@
 					</div>
 				</address>				
 			</header> 
-			<!-- Head Content - Fin -->
 			
-			<!-- Main Content - Inicio -->
-			<main id="main_content">
+			<!-- M A I N -->
+			<main id="main_container">
 				<nav id="section_button">	
                     
             		<a class="menu-btn" onclick="btn_admin()">
@@ -90,6 +90,11 @@
                         <span class="title">Imagenes</span>
                         <i class="icon fa-solid fa-images fa-beat"></i>
                     </a>
+
+					<a class="menu-btn" href="../index.php">
+                        <span class="title">Salir</span>
+                        <i class="icon fa-solid fa-right-from-bracket fa-fade"></i>
+                    </a>
 				</nav>
 
 				<h2 id="titulo"></h2>
@@ -102,21 +107,19 @@
 				</aside>	
 				<section class="image"></section>	
 			</main> 
-            <!-- Footer - Inicio -->
-            <footer id="footer_content">
-			    <h6 class="copybox"> GD | 2023 - <?php echo date("Y");?> | Todos los derechos reservados | </h6>
-			    <p class="devbox">
+
+            <!-- F O O T E R -->
+            <footer id="footer_container">
+			    <h6 class="footer_copy"> GD | 2023 - <?php echo date("Y");?> | Todos los derechos reservados | </h6>
+			    <p class="footer_dev">
 					&copy; Developed and Designed by GattiDev
 				</p>
             </footer>
-			<!-- Footer - Fin -->
 			
 		</div>
 
 		<!-- OPCIONES PARA COMPLETAR -->
-        <?php //---> OPCIONES PARA COMPLETAR -->
-			require_once 'views/insert_data.php';
-		?>	
+        <?php require_once 'views/insert_data.php'; ?>	
 		
         <script type="text/javascript" src="<?php echo GD_JS;?>time.js"></script>
 	</body>
